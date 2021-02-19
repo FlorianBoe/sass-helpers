@@ -1,12 +1,14 @@
+@import "tools/rfs";
+
 // Deprecate
-@import "mixins/deprecate";
+@import "tools/deprecate";
 
 // Helpers
-@import "mixins/breakpoints";
-@import "mixins/visually-hidden";
-@import "mixins/text-truncate";
+@import "tools/breakpoints";
+@import "tools/visually-hidden";
+@import "tools/text-truncate";
 
 // Layout
-@import "mixins/container";
-@import "mixins/grid";
-@import "mixins/image";
+@import "tools/container";
+@import "tools/grid";
+@import "tools/image";

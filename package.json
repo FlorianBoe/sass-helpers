@@ -4,7 +4,7 @@
   "repository": "https://github.com/FlorianBoe/sass-helpers",
   "author": "Florian Bögner",
   "scripts": {
-    "dev": "node-sass -w src/ -o dist/"
+    "dev": "node-sass -w index.scss -o dist/"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"

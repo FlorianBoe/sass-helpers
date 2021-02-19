@@ -3,6 +3,9 @@
 
 @import "mixins";
 
+// Generic
+@import "generic/normalize";
+
 // Helpers
 @import "helpers/ratio";
 @import "helpers/text-truncation";

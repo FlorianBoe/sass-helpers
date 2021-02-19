@@ -1,0 +1,12 @@
+{
+  "name": "sass-helper",
+  "version": "0.0.1",
+  "repository": "https://github.com/FlorianBoe/sass-helpers",
+  "author": "Florian Bögner",
+  "scripts": {
+    "dev": "node-sass -w src/ -o dist/"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

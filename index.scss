@@ -1,17 +1,25 @@
+// Settings
 @import "functions";
 @import "variables";
 
+// Tools
 @import "mixins";
 
 // Generic
 @import "generic/normalize";
 
-// Helpers
-@import "helpers/ratio";
-@import "helpers/text-truncation";
-@import "helpers/visually-hidden";
+// Elements
+
 
 // Objects
 @import "objects/grid";
 @import "objects/containers";
-@import "objects/images"
+@import "objects/images";
+
+// Components
+
+
+// Utilities
+@import "utilities/ratio";
+@import "utilities/text-truncation";
+@import "utilities/visually-hidden";

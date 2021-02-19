@@ -11,3 +11,14 @@
   flex: 1;
   min-width: 0;
 }
+
+.media--fluid {
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+
+    .media__figure {
+      margin-right: 0;
+      margin-bottom: .5rem;
+    }
+  }
+}

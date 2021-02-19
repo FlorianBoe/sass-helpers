@@ -1,0 +1,13 @@
+.media {
+  display: flex;
+}
+
+.media__figure {
+  flex-shrink: 0;
+  margin-right: .5rem;
+}
+
+.media__body {
+  flex: 1;
+  min-width: 0;
+}
